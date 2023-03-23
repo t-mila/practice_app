@@ -126,27 +126,6 @@ class HomePage extends StatelessWidget {
                       clipBehavior: Clip.hardEdge,
                       child: InkWell(
                         splashColor: Colors.black.withAlpha(50),
-                      // child: Stack(
-                      //   children: [
-                      //     Container(
-                      //         decoration: BoxDecoration(
-                      //           // color: Colors.white.withOpacity(0.1),
-                      //           borderRadius: BorderRadius.circular(100),
-                      //           boxShadow: [
-                      //             BoxShadow(
-                      //               color: Colors.white.withOpacity(0.3),
-                      //               spreadRadius: 2,
-                      //               blurRadius: 8,
-                      //               offset: Offset(0, 2),
-                      //             ),
-                      //             BoxShadow(
-                      //               color: Colors.blueGrey.withOpacity(0.1),
-                      //               spreadRadius: 2,
-                      //               blurRadius: 8,
-                      //               offset: Offset(0, 2),
-                      //             ),
-                      //           ],
-                      //         )),
                           child: ListTile(
                             leading: Column(
                               children: [
@@ -167,11 +146,7 @@ class HomePage extends StatelessWidget {
                               );
                             },
                           ),
-
-                    //     ],
-                    // )
-
-                  )
+                        )
                   );
                 },
               ),
